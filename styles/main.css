@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-size: 10px;
+    font-weight: 300%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #333;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.71)),
+    url(../images/bethany-fullsize.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.row {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    
+  }
+
+
+
+.hero {
+    position: absolute;
+    width: 1000px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    padding: 1rem;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.main-nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    padding: 1rem;
+}
+
+.header-nav {
+    border: 1px solid #333;
+    border-radius: 300px;
+    background-color: #279227;
+    padding: 0.5rem 1rem;
+}
+
+.header-nav:hover,
+.header-nav:active {
+    background-color: rgb(54, 20, 206);
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+h1 {
+    color: #fff;
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+}
+
+p {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+
+.btn:visited,
+.btn:link {
+    
+    padding: 1rem;
+    color: #fff;
+    border: 1px solid #333;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    display: block;
+    width: 15%;
+}
+
+
+.btn .btn-full {
+    border-radius: 200px;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    background-color: rgb(54, 20, 206);
+    
+}
+
+.btn-small:hover,
+.btn-small:active {
+    background-color: rgb(163, 22, 69);
+}
+
+.about {
+    background-color: #fff;
+    justify-items: center;
+}
+
+.about-us h2 {
+    font-weight: 300;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: rgb(214, 49, 49);
+   
+}
+
+.about__us {
+    color: #333;
+    padding: 2rem;
+}
+
